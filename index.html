@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Clock</title>
+</head>
+<body>
+    <img src="./Assets/clock_logo.png" alt="Clock" width="150px" style="margin-top: 20px; margin-left: 60px;">
+</body>
+<div id="ctime">
+    <span id="wtime">TIME</span>
+    <span id="hrs"></span>
+    <span id="min"></span>
+    <span id="sec"></span>
+</div>
+<div id="select_time">
+    <div id="select_time1">
+    <img src="./Assets/wake_up.svg" alt="Wakeup" id="wake_up" class="selecttimeimg">
+    <span id="label_1" class="selecttimelabel">Set wake up time</span>
+    <select name="wakeup" id="wakeup" class="selecttime_dropdown" style="font-size: 17px;">
+        <option value="8 AM-9 AM">8 AM - 9 AM</option>
+        <option value="9 AM-10 AM">9 AM - 10 AM</option>
+        <option value="10 AM-11 AM">10 AM - 11 AM</option>
+        <option value="11 AM-12 PM">11 AM - 12 PM</option>
+    </select>
+</div> <br>
+<div id="select_time2">
+    <img src="./Assets/lunch_time.svg" alt="lunchtime" id="wake_up" class="selecttimeimg">
+    <span id="label_2" class="selecttimelabel">Set lunch time</span>
+    <select name="lunchtime" id="lunchtime" class="selecttime_dropdown" style="font-size: 17px; margin-left: 23px;">
+        <option value="12 PM-1 PM">12 PM - 1 PM</option>
+        <option value="1 PM-2 PM">1 PM - 2 PM</option>
+        <option value="2 PM-3 PM">2 PM - 3 PM</option>
+    </select>
+</div>
+</div>
+<div id="msg1"></div>
+<div id="pics"></div>  
+<div id="msg2"></div>  
+<button id="alarm">Set Alarm</button>
+<div id="details"></div>
+</html>
