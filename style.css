@@ -23,7 +23,7 @@ body{
 }
 #msg1{
     height: 60px;
-    width: 440px;
+    width: 500px;
     background-color: white;
     border-radius: 20px;
     position: absolute;
@@ -31,8 +31,9 @@ body{
     right: 187px;
     color: #8E53F0;
     font-size: 20px;
-    padding-top: 40px;
-    padding-left: 60px;
+    padding-top: 30px;
+    /* padding-left: 60px; */
+    text-align: center;
     font-weight: bold;
 }
 #pics{
@@ -44,6 +45,7 @@ body{
     /* margin-top: 10px; */
     top: 314px;
     right: 187px;
+    /* background: url("./Assets/some lunch.svg"); */
 }
 #msg2{
     height: 77px;
@@ -57,7 +59,7 @@ body{
 }
 #alarm{
     height: 50px;
-    width: 299px;
+    width: 249px;
     position: absolute;
     top: 600px;
     left: 70px;
@@ -66,15 +68,18 @@ body{
     opacity: 1;
     font-size: 20px;
     color: white;
+    cursor: pointer;
 }
 #details{
-    height: 74px;
-    width: 250px;
+    height: 94px;
+    width: 300px;
     background-color: #946fbe;
     border-radius: 20px;
     position: absolute;
     top: 590px;
-    left: 401px;
+    left: 331px;
+    font-size: 17px;
+    padding-top: 5px;
     /* color: #0a020b; */
     /* opacity: 0.23; */
 }
