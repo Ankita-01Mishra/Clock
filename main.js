@@ -95,7 +95,19 @@ if(array1[1]==hr){
 
 },1000)
 
-
+setTimeout(() => {
+    document.querySelector("#alarm").addEventListener('mouseclick',()=>{
+        document.querySelector("#alarm").innerHTML="Set Alarm"
+    }) 
+    document.querySelector("#alarm").addEventListener('mouseover',()=>{
+        document.querySelector("#alarm").innerHTML="Party Time !"
+        document.querySelector("#alarm").getElementsByClassName. background= "transparent linear-gradient(113deg, #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%) 0% 0% no-repeat padding-box"
+    })  
+    document.querySelector("#alarm").addEventListener('mouseleave',()=>{
+        document.querySelector("#alarm").innerHTML="Set Alarm"
+    }) 
+   
+}, 1000);
 
 
 
