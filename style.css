@@ -3,12 +3,14 @@ body{
 }
 #ctime{
     height: 100px;
-    width: 500px;
+    width: 470px;
     background-color: white;
     border-radius: 20px;
     position: absolute;
     top: 30px;
     right: 187px;
+    padding-top: 10px;
+    padding-left: 25px;
 }
 #select_time{
     height: 350px;
@@ -20,14 +22,18 @@ body{
     left: 70px;
 }
 #msg1{
-    height: 100px;
-    width: 500px;
+    height: 60px;
+    width: 440px;
     background-color: white;
     border-radius: 20px;
     position: absolute;
     top: 178px;
     right: 187px;
-
+    color: #8E53F0;
+    font-size: 20px;
+    padding-top: 40px;
+    padding-left: 60px;
+    font-weight: bold;
 }
 #pics{
     height: 350px;
@@ -42,9 +48,9 @@ body{
 #msg2{
     height: 77px;
     width: 566px;
-    background-color: #FFFFFF;
+    background-color: #946fbe;
     border-radius: 20px;
-    opacity: 0.23;
+    /* opacity: 0.23; */
     position: absolute;
     top: 496px;
     left: 70px;
@@ -62,15 +68,15 @@ body{
     color: white;
 }
 #details{
-    height: 94px;
-    width: 230px;
-    background-color: #FFFFFF;
+    height: 74px;
+    width: 250px;
+    background-color: #946fbe;
     border-radius: 20px;
     position: absolute;
     top: 590px;
     left: 401px;
-    color: #F25CFE;
-    opacity: 0.23;
+    /* color: #0a020b; */
+    /* opacity: 0.23; */
 }
 
 /* Select time Css */
@@ -87,14 +93,14 @@ select {
 }
 .selecttimeimg{
     position: relative;
-    top: 18px;
+    top: 20px;
     left: 20px;
     width: 34px;
     height: 34px;
 }
 .selecttimelabel{
     position: relative;
-    top: 8px;
+    top: 10px;
     left: 50px;
     width: 34px;
     height: 34px;
@@ -102,9 +108,51 @@ select {
 }
 .selecttime_dropdown{
     position: relative;
-    top: 8px;
+    top: 10px;
     left: 100px;
     width: 200px;
     height: 25px;
 }
 
+/* MSG2 */
+#msg2 h2{
+    font-size: 25px;
+    color: white;
+    opacity: 1;
+    padding-left: 55px;
+}
+
+#details span{
+    color: #F25CFE;
+    opacity: 1;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+/* Pics */
+#pics img{
+    width: 500px;
+    height: 350px;
+}
+
+/*CURRENT TIME*/
+#time{
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.square{
+    width: 70px;
+    border: 2px solid #F6E2FF;
+    background-color: #F6E2FF;
+    padding-top: 30px;
+    color: #8A11BF;
+}
+.vr{
+    position: relative;
+    left: -526px;
+    top: 23px;
+    height: 34px;
+    border-right: 1px solid black;
+}

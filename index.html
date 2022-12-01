@@ -11,12 +11,18 @@
     <img src="./Assets/clock_logo.png" alt="Clock" width="150px" style="margin-top: 20px; margin-left: 60px;">
 </body>
 <div id="ctime">
-    <span id="wtime">TIME</span>
-    <span id="hrs"></span>
-    <span id="min"></span>
-    <span id="sec"></span>
+    <div id="time">
+    <div id="wtime" style="padding-top: 30px; color: #3D087B; font-weight: bold;">TIME</div>
+    <div class="square"><div id="hours">00</div><span>hours</span></div><span class="dot" style="margin-top:30px;">:</span>
+    <div class="square"><div id="minutes">00</div><span>mins</span></div>
+    <span class="dot" style="margin-top:30px;">:</span>
+    <div class="square"><div id="second">00</div><span>secs</span></div>
+    <div class="square" style="margin-left: 10px; background:linear-gradient(to bottom, #8A11BF, #F25CFE); color:white;"><div id="ap">PM</div></div>
 </div>
+</div>
+
 <div id="select_time">
+    
     <div id="select_time1">
     <img src="./Assets/wake_up.svg" alt="Wakeup" id="wake_up" class="selecttimeimg">
     <span id="label_1" class="selecttimelabel">Set wake up time</span>
@@ -26,7 +32,9 @@
         <option value="10 AM-11 AM">10 AM - 11 AM</option>
         <option value="11 AM-12 PM">11 AM - 12 PM</option>
     </select>
-</div> <br>
+</div> 
+<div class="vr"></div>
+ <hr>
 <div id="select_time2">
     <img src="./Assets/lunch_time.svg" alt="lunchtime" id="wake_up" class="selecttimeimg">
     <span id="label_2" class="selecttimelabel">Set lunch time</span>
@@ -35,11 +43,38 @@
         <option value="1 PM-2 PM">1 PM - 2 PM</option>
         <option value="2 PM-3 PM">2 PM - 3 PM</option>
     </select>
+</div> 
+<div class="vr"></div>
+ <hr>
+<div id="select_time3">
+    <img src="./Assets/nap_time.svg" alt="naptime" id="nap_time" class="selecttimeimg">
+    <span id="label_3" class="selecttimelabel">Set nap time</span>
+    <select name="naptime" id="naptime" class="selecttime_dropdown" style="font-size: 17px; margin-left: 37px;">
+        <option value="3 PM-4 PM">3 PM - 4 PM</option>
+        <option value="4 PM-5 PM">4 PM - 5 PM</option>
+        <option value="5 PM-6 PM">5 PM - 6 PM</option>
+    </select>
+</div> 
+<div class="vr"></div>
+<hr>
+<div id="select_time4">
+    <img src="./Assets/night-icon.svg" alt="nighttime" id="night_time" class="selecttimeimg" style="filter: sepia(100%) hue-rotate(190deg) saturate(900%);">
+    <span id="label_4" class="selecttimelabel">Set night time</span>
+    <select name="nighttime" id="nighttime" class="selecttime_dropdown" style="font-size: 17px; margin-left: 23px;">
+        <option value="8 PM-9 PM">8 PM - 9 PM</option>
+        <option value="9 PM-10 PM">9 PM - 10 PM</option>
+        <option value="10 PM-11 PM">10 PM - 11 PM</option>
+    </select>
 </div>
 </div>
-<div id="msg1"></div>
-<div id="pics"></div>  
-<div id="msg2"></div>  
+<div id="msg1">GRAB SOME HEALTHY BRAKEFAST</div>
+<div id="pics">
+    <img src="./Assets/lunch_image.png" alt="">
+</div>  
+<div id="msg2"><h2 id="msg2_msg">GOOD MORNING !! WAKE UP !!</div></h2></div>  
 <button id="alarm">Set Alarm</button>
-<div id="details"></div>
+<div id="details">
+    <span>Wake Up Time: <span id="my-container1" ></span></span>
+</div>
+<script src="main.js"></script>
 </html>
