@@ -122,11 +122,12 @@ select {
 }
 
 /* MSG2 */
-#msg2 h2{
-    font-size: 25px;
+#msg2 span{
+    padding-top: 5px;
+    font-size: 35px;
     color: white;
     opacity: 1;
-    padding-left: 55px;
+    padding-left: 45px;
 }
 
 #details span{
@@ -249,7 +250,7 @@ select {
         position: relative;
         left: -400px;
     }
-    #msg2 h2{
+    #msg2{
         font-size: 20px;
     }
 }
