@@ -11,6 +11,7 @@ body{
     right: 167px;
     padding-top: 10px;
     padding-left: 25px;
+    box-shadow: inset -15px 2px 20px 5px rgba(80, 5, 27, 0.2), inset 15px -2px 20px 5px rgba(71, 3, 23, 0.2);
 }
 #select_time{
     height: 350px;
@@ -20,6 +21,8 @@ body{
     position: absolute;
    top: 110px;
     left: 70px;
+    border: 2px dashed darkgoldenrod;
+    border-style:dashed;
 }
 #msg1{
     height: 60px;
@@ -35,6 +38,7 @@ body{
     /* padding-left: 60px; */
     text-align: center;
     font-weight: bold;
+    box-shadow: inset -15px 15px 20px 1px rgba(80, 5, 27, 0.2), inset 5px -5px 20px 1px rgba(188, 8, 35, 0.2);
 }
 #pics{
     height: 350px;
@@ -46,9 +50,10 @@ body{
     top: 314px;
     right: 167px;
     /* background: url("./Assets/some lunch.svg"); */
+    box-shadow:  5px 5px 2px 1px rgb(112, 88, 88);
 }
 #msg2{
-    height: 77px;
+    height: 63px;
     width: 546px;
     background-color: #946fbe;
     border-radius: 20px;
@@ -56,6 +61,8 @@ body{
     position: absolute;
     top: 489px;
     left: 70px;
+    padding-top: 10px;
+    box-shadow: inset -5px 5px 2px 1px rgba(188, 8, 35, 0.2),  -5px 5px 2px 1px rgba(188, 8, 35, 0.2);
 }
 #alarm{
     height: 50px;
@@ -77,6 +84,8 @@ body{
     width: 280px;
     background-color: #946fbe;
     border-radius: 20px;
+    border: 2px solid rgb(185, 52, 74);
+    box-shadow: inset -5px 5px 2px 1px rgba(188, 8, 35, 0.2), inset 5px -5px 2px 1px rgba(188, 8, 35, 0.2);
     position: absolute;
     top: 580px;
     left: 331px;
@@ -84,6 +93,7 @@ body{
     padding-top: 5px;
     /* color: #0a020b; */
     /* opacity: 0.23; */
+    /* border: 2 px solid red; */
 }
 
 /* Select time Css */

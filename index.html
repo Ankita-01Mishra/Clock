@@ -8,7 +8,7 @@
     <title>Clock</title>
 </head>
 <body>
-    <img src="./Assets/clock_logo.png" alt="Clock" width="150px" style="margin-top: 20px; margin-left: 60px;">
+    <img src="./Assets/clock_logo.png" alt="Clock" width="150px" style="margin-top: 20px; margin-left: 60px;box-shadow: 5px 5px 20px 1px rgb(109, 83, 83);">
 </body>
 <div id="ctime">
     <div id="time">
@@ -28,11 +28,13 @@
     <span id="label_1" class="selecttimelabel">Set wake up time</span>
     <select name="wakeup" id="wakeup" class="selecttime_dropdown" style="font-size: 17px;">
         <option value="none" selected disabled hidden>Select an Option</option>
+        <option value="4 AM-5 AM,9,0">4 AM - 5 AM</option>
         <option value="5 AM-6 AM,0">5 AM - 6 AM</option>
         <option value="6 AM-7 AM,0">6 AM - 7 AM</option>
         <option value="7 AM-8 AM,0">7 AM - 8 AM</option>
         <option value="8 AM-9 AM,0">8 AM - 9 AM</option>
-        <option value="4 AM-5 AM,9,0">4 AM - 5 AM</option>
+        <!-- <option value="4 AM-5 AM,9,0">4 AM - 5 AM</option> -->
+        <option value="9 AM-10 AM,10,0">9 AM - 10 AM</option>
         <option value="10 AM-11 AM,10,0">10 AM - 11 AM</option>
         <option value="11 AM-12 PM,11,0">11 AM - 12 PM</option>
         <option value="12 PM-1 PM,12,1">12 PM - 1 PM</option>
@@ -48,7 +50,7 @@
         <option value="10 PM-11 PM,10,1">10 PM - 11 PM</option>
         <option value="11 PM-12 AM ,11,1">11 PM - 12 AM</option>
         <option value="12 AM-1 AM,12,0">12 AM - 1 AM</option>
-        <option value="1 AM-2 AM,1,0">12 AM - 1 AM</option>
+        <option value="1 AM-2 AM,1,0">1 AM - 2 AM</option>
     </select>
 </div> 
 <div class="vr"></div>
@@ -58,11 +60,13 @@
     <span id="label_2" class="selecttimelabel">Set lunch time</span>
     <select name="lunchtime" id="lunchtime" class="selecttime_dropdown" style="font-size: 17px; margin-left: 23px;">
         <option value="none" selected disabled hidden>Select an Option</option>
+        <option value="4 AM-5 AM,9,0">4 AM - 5 AM</option>
         <option value="5 AM-6 AM,0">5 AM - 6 AM</option>
         <option value="6 AM-7 AM,0">6 AM - 7 AM</option>
         <option value="7 AM-8 AM,0">7 AM - 8 AM</option>
         <option value="8 AM-9 AM,0">8 AM - 9 AM</option>
-        <option value="4 AM-5 AM,9,0">4 AM - 5 AM</option>
+        <!-- <option value="4 AM-5 AM,9,0">4 AM - 5 AM</option> -->
+        <option value="9 AM-10 AM,10,0">9 AM - 10 AM</option>
         <option value="10 AM-11 AM,10,0">10 AM - 11 AM</option>
         <option value="11 AM-12 PM,11,0">11 AM - 12 PM</option>
         <option value="12 PM-1 PM,12,1">12 PM - 1 PM</option>
@@ -78,7 +82,7 @@
         <option value="10 PM-11 PM,10,1">10 PM - 11 PM</option>
         <option value="11 PM-12 AM ,11,1">11 PM - 12 AM</option>
         <option value="12 AM-1 AM,12,0">12 AM - 1 AM</option>
-        <option value="1 AM-2 AM,1,0">12 AM - 1 AM</option>
+        <option value="1 AM-2 AM,1,0">1 AM - 2 AM</option>
     </select>
 </div> 
 <div class="vr"></div>
@@ -88,11 +92,13 @@
     <span id="label_3" class="selecttimelabel">Set nap time</span>
     <select name="naptime" id="naptime" class="selecttime_dropdown" style="font-size: 17px; margin-left: 37px;">
         <option value="none" selected disabled hidden>Select an Option</option>
+        <option value="4 AM-5 AM,9,0">4 AM - 5 AM</option>
         <option value="5 AM-6 AM,0">5 AM - 6 AM</option>
         <option value="6 AM-7 AM,0">6 AM - 7 AM</option>
         <option value="7 AM-8 AM,0">7 AM - 8 AM</option>
         <option value="8 AM-9 AM,0">8 AM - 9 AM</option>
-        <option value="4 AM-5 AM,9,0">4 AM - 5 AM</option>
+        <option value="9 AM-10 AM,10,0">9 AM - 10 AM</option>
+        <!-- <option value="4 AM-5 AM,9,0">4 AM - 5 AM</option> -->
         <option value="10 AM-11 AM,10,0">10 AM - 11 AM</option>
         <option value="11 AM-12 PM,11,0">11 AM - 12 PM</option>
         <option value="12 PM-1 PM,12,1">12 PM - 1 PM</option>
@@ -108,7 +114,7 @@
         <option value="10 PM-11 PM,10,1">10 PM - 11 PM</option>
         <option value="11 PM-12 AM ,11,1">11 PM - 12 AM</option>
         <option value="12 AM-1 AM,12,0">12 AM - 1 AM</option>
-        <option value="1 AM-2 AM,1,0">12 AM - 1 AM</option>
+        <option value="1 AM-2 AM,1,0">1 AM - 2 AM</option>
     </select>
 </div> 
 <div class="vr"></div>
@@ -118,11 +124,12 @@
     <span id="label_4" class="selecttimelabel">Set night time</span>
     <select name="nighttime" id="nighttime" class="selecttime_dropdown" style="font-size: 17px; margin-left: 23px;">
         <option value="none" selected disabled hidden>Select an Option</option>
+        <option value="4 AM-5 AM,9,0">4 AM - 5 AM</option>
         <option value="5 AM-6 AM,0">5 AM - 6 AM</option>
         <option value="6 AM-7 AM,0">6 AM - 7 AM</option>
         <option value="7 AM-8 AM,0">7 AM - 8 AM</option>
         <option value="8 AM-9 AM,0">8 AM - 9 AM</option>
-        <option value="4 AM-5 AM,9,0">4 AM - 5 AM</option>
+        <option value="9 AM-10 AM,10,0">9 AM - 10 AM</option>
         <option value="10 AM-11 AM,10,0">10 AM - 11 AM</option>
         <option value="11 AM-12 PM,11,0">11 AM - 12 PM</option>
         <option value="12 PM-1 PM,12,1">12 PM - 1 PM</option>
