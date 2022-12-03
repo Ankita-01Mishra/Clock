@@ -66,7 +66,7 @@ setInterval(() =>{
     }
     else{
         document.querySelector("#msg2_msg").innerHTML="ENJOY !!!";
-        document.querySelector("#pics").innerHTML="<img src=\'./Assets/lunch_time.svg'>"
+        document.querySelector("#pics").innerHTML="<img src=\'./Assets/default.jpg'>"
     }
     
 
