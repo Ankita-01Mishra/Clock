@@ -8,7 +8,7 @@ setInterval(() =>{
     document.getElementById("minutes").innerHTML = mi;
     document.getElementById("second").innerHTML = se;
     // console.log(hr)
-    if(hr>12){
+    if(hr>=12){
         hr=hr-12;
         document.getElementById("ap").innerHTML="PM"
         
@@ -22,18 +22,21 @@ setInterval(() =>{
     document.getElementById("hours").innerHTML = hr;
     
     
-    // console.log(hr);
+    // console.log(typeof(ap.innerHTML));
+    console.log(hr);
     if(hr>=3 && hr<9 && ap.innerHTML=='PM')
     document.getElementById("msg1").innerHTML="STOP YAWNING, GET SOME TEA.. <br> ITS JUST EVENING";
     
     if(hr>=9 && hr<12 && ap.innerHTML=='PM' ||hr==12 && ap.innerHTML=="AM" ||hr>=1 && hr<5 && ap.innerHTML=='AM')
     document.getElementById("msg1").innerHTML="CLOSE YOUR EYES AND GO TO SLEEP";
     
-    if(hr>=5 && hr<9 && ap.innerHTML=='AM')
+    if(hr>=5 && hr<12 && ap.innerHTML=='AM')
     document.getElementById("msg1").innerHTML="GRAB SOME HEALTHY BRAKEFAST";
     
+     if(hr==12&& ap.innerHTML=='PM')
+     document.getElementById("msg1").innerHTML="LET'S HAVE SOME LUNCH !!";
     
-    if(hr>=12 && hr<3 && ap.innerHTML=='PM')
+    if(hr>=1 && hr<3 && ap.innerHTML==='PM')
     document.getElementById("msg1").innerHTML="LET'S HAVE SOME LUNCH !!";
     
     
@@ -107,7 +110,7 @@ setInterval(() =>{
     document.getElementById('my-container1').innerHTML=array1[0];
     // console.log(array[1]);
     // console.log(hr);
-    if(array1[1]==hr){
+    if(array1[1]==hr && array1[2]==app){
         document.querySelector("#msg2_msg").innerHTML="GOOD Morning !! WAKE UP !!";
         document.querySelector("#pics").innerHTML="<img src=\'./Assets/morning.svg'>"
     }
